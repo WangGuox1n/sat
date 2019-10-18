@@ -1,0 +1,53 @@
+public class ShimpleTest extends java.lang.Object
+{
+    int x;
+
+    public void <init>()
+    {
+        ShimpleTest r0;
+
+        r0 := @this: ShimpleTest;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        r0.<ShimpleTest: int x> = 0;
+
+        return;
+    }
+
+    public void test()
+    {
+        ShimpleTest r0;
+        int $i0, $i1, i3;
+        boolean z0;
+        short s2, s2_1, s2_2;
+
+        r0 := @this: ShimpleTest;
+
+        z0 = 0;
+
+        $i0 = r0.<ShimpleTest: int x>;
+
+        if $i0 <= 0 goto label1;
+
+        r0.<ShimpleTest: int x> = 100;
+
+        s2 = 200;
+
+(0)     goto label2;
+
+     label1:
+        r0.<ShimpleTest: int x> = 300;
+
+(1)     s2_1 = 400;
+
+     label2:
+        s2_2 = Phi(s2 #0, s2_1 #1);
+
+        $i1 = r0.<ShimpleTest: int x>;
+
+        i3 = s2_2 + $i1;
+
+        return;
+    }
+}
