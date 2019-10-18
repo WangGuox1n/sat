@@ -22,7 +22,7 @@ java -jar sootclasses-trunk-jar-with-dependencies.jar -cp . -pp -f shimple Shimp
 
 可以看到，变量`x`在中间代码始终由`r0.<ShimpleTest: int x>`来表示，没有经过SSA转换；而变量`y`在中间代码中由`s2`、 ` s2_1`、 `s2_2`等多个变量来表示，且每个变量只赋值一次，满足SSA转换。因此构造出的程序完成了部分SSA转换。
 
-![pic](https://github.com/WangGuox1n/sat/blob/master/Homework1-SSA/3.png)
+![](https://github.com/WangGuox1n/sat/blob/master/Homework1-SSA/code.png)
 
 ### 参考资料
 
