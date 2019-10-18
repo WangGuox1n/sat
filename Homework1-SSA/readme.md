@@ -4,7 +4,7 @@
 
 ### 实验说明
 
-- 采用[Soot]( http://sable.github.io/soot/ ) 对由 Java 语言编写的程序`ShimpleTest.java`进行SSA转换。
+- 采用[Soot]( http://sable.github.io/soot/ ) 对由 Java 语言编写的程序`ShimpleTest.java`生成中间代码，且中间代码中包含部分SSA转换。
 - Soot工具版本为[sootclasses-trunk-jar-with-dependencies]( https://soot-build.cs.uni-paderborn.de/public/origin/develop/soot/soot-develop/build/ )
 
 ### 实验过程
