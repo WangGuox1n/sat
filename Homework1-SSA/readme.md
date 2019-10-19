@@ -26,6 +26,6 @@ java -jar sootclasses-trunk-jar-with-dependencies.jar -cp . -pp -f shimple Shimp
 
 ### 参考资料
 
-https://github.com/Sable/soot/wiki/A-brief-overview-of-Shimple 
-https://blog.csdn.net/zlp1992/article/details/42023995
-https://www.sable.mcgill.ca/soot/tutorial/usage/
+- https://github.com/Sable/soot/wiki/A-brief-overview-of-Shimple
+- https://blog.csdn.net/zlp1992/article/details/42023995
+- https://www.sable.mcgill.ca/soot/tutorial/usage/
