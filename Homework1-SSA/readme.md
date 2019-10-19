@@ -12,7 +12,7 @@
 通过顺序执行以下两条命令，可生成经过SSA转换转换的中间代码，结果保存在./sootOutput 中。
 
 ```shell
-Javac ShimpleTest.java
+javac ShimpleTest.java
 java -jar sootclasses-trunk-jar-with-dependencies.jar -cp . -pp -f shimple ShimpleTest
 ```
 
@@ -26,4 +26,6 @@ java -jar sootclasses-trunk-jar-with-dependencies.jar -cp . -pp -f shimple Shimp
 
 ### 参考资料
 
-官方教程 https://github.com/Sable/soot/wiki/A-brief-overview-of-Shimple 
+https://github.com/Sable/soot/wiki/A-brief-overview-of-Shimple 
+https://blog.csdn.net/zlp1992/article/details/42023995
+https://www.sable.mcgill.ca/soot/tutorial/usage/
